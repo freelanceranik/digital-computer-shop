@@ -1,0 +1,1196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Digital computer shop multivandor e-commerce website</title>
+    <meta name="description" content="This is a ditial computer shop. Laptop and computer also all computer parts are available in this shop. this shop owner by emon" />
+    <meta name="keywords" content="e-commerce,onine-shop,dital-shop,digital-computer,bd-shop,electrical-shop" />
+    <meta name="author" content="Freelancer Anik" />
+    
+    <!-- Css All Files -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Font-style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,700;0,900;1,700&display=swap" rel="stylesheet"> 
+    <!-- Custom style -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    
+    <!-- Start header markup design -->
+    <header class="header text-white p-1" id="header">
+        <div class="container">
+            <div class="row d-flex justify-content-end mt-1">
+                <div class="col-lg-4 mt-1 header-left">
+                    <p>Welcome to Digital Computer Online Shop Store !</p>
+                </div>
+                <div class="col-lg-8 text-lg-end header-right">
+                    <ul>
+                        <li><a href="#">Store Location</a></li>
+                        <li> | </li>
+                        <li><a href="track-order.html">Track Your Order</a></li>
+                        <li> |</li>
+                        <li class="money-dropdown text-start">
+                            <a href="#" class="d-block my-2">BDT <i class="fa-solid fa-caret-down"></i></a>
+                            <div class="money-dropdown-content">
+                                <a href="#">BDT</a>
+                                <a href="#">Dollar</a>
+                            </div>
+                        </li>
+                        <li>|</li>
+                        <li class="country-dropdown text-start">
+                            <a href="#" class="d-block my-2"><img src="img/flag/en.png" alt="" class="d-inline-block"> English</a>
+                            <div class="country-dropdown-content">
+                                <a href="#"><img src="img/flag/fr.png" alt="" class="d-inline-block"> France</a>
+                                <a href="#"><img src="img/flag/germany.png" alt="" class="d-inline-block"> Germany</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End header markup design -->
+
+
+    <!-- Start header markup design -->
+    <section class="menu py-1" id="Menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 header-logo">
+                    <nav class="navbar navbar-expand-xxl navbar-dark bg-transparent position-relative" id="NavBar">
+                        <a href="index.html" class="d-block navbar-brand">Digital <span class="gc">Computer</span></a>
+                        <button class="navbar-toggler" type="button" data-bs-target="#NavBar_Icon" data-bs-toggle="collapse">
+                            <span class="navbar-toggler-icon text-white"></span>
+                        </button>
+                        <div class="collapse navbar-collapse mt-2" id="NavBar_Icon">
+                            <ul class="navbar-nav" style="list-style-position: outside;">
+                                <li class="navbar-item">
+                                    <a class="navbar-link" href="product.html"><i class="fa-solid fa-percent"></i> Hot Promotion</a>
+                                </li>
+                                <li class="navbar-item">
+                                    <a class="navbar-link" href="product.html"><i class="fa-solid fa-laptop"></i> Laptops & All Parts</a>
+                                </li>
+                                <li class="navbar-item">
+                                    <a class="navbar-link" href="product.html"><i class="fa-solid fa-computer"></i> Computers & All Parts</a>
+                                </li>
+                                <li class="navbar-item">
+                                    <a class="navbar-link" href="product.html"><i class="fa-solid fa-display"></i> LED & LCD</a>
+                                </li>
+                                <li class="navbar-item">
+                                    <a class="navbar-link" href="product.html"><i class="fa-solid fa-print"></i> Printers</a>
+                                </li>
+                                <li class="navbar-item">
+                                    <a class="navbar-link" href="product.html"><i class="fa-solid fa-clipboard"></i> Scanner</a>
+                                </li>
+                                <li class="navbar-item">
+                                    <a class="navbar-link" href="product.html"><i class="fa-solid fa-camera"></i> CC Camera</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div class="col-lg-5 header-form">
+                    <form action="#" class="py-2">
+                        <div class="row for-mobile d-flex justify-content-between align-items-center g-0">
+                            <div class="col-sm-3 form-mobile-select">
+                                <select class="form-select" name="search-brand" id="search-brand">
+                                    <option value="all selected">All</option>
+                                    <option value="laptop">Laptop</option>
+                                    <option value="computer">Computer</option>
+                                    <option value="monitor">Monitor</option>
+                                    <option value="camera">Camera</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-6 form-mobile-search">
+                                <input type="search" class="form-control" placeholder="Search">
+                            </div>
+                            <div class="col-sm-3 form-mobile-btn">
+                                <button class="btn form-btn ms-2" type="submit">Search</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-3 header-register d-flex justify-content-between align-items-center">
+                    
+                    <!-- Start Favorite-Area -->
+                    <div class="header-love position-relative">
+                        <a href="shipping-cart.html" class="d-block"><img src="img/icons/love.png" alt="favorite" class="d-block "></a>
+                        <span class="position-absolute top-50 start-100 translate-middle badge rounded-pill love-badge">2</span>
+                    <!-- Start Favorite Product Lists -->
+                    <!-- Tooltip -->
+                    <div class="favorite-products p-3">
+                        <div class="row">
+                            <div class="col-sm-12 favorite-product-item py-2">
+                                <div class="row">
+                                    <div class="col-sm-3 favorite-img">
+                                        <img src="img/products/electronic/12.jpg" alt="" class="d-block w-100">
+                                    </div>
+                                    <div class="col-sm-7 favorite-text">
+                                        <a href="#" class="d-block">Samsung ultra 55" LED Monitor</a>
+                                    </div>
+                                    <div class="col-sm-2 favorite-btn">
+                                        <button class="btn btn-close" data-bs-toggle=""></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 favorite-product-item py-2">
+                                <div class="row">
+                                    <div class="col-sm-3 favorite-img">
+                                        <img src="img/products/electronic/11.jpg" alt="" class="d-block w-100">
+                                    </div>
+                                    <div class="col-sm-7 favorite-text">
+                                        <a href="#" class="d-block">Asus Foldable 19" Laptop</a>
+                                    </div>
+                                    <div class="col-sm-2 favorite-btn">
+                                        <button class="btn btn-close" data-bs-toggle=""></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Favorite Product Lists -->
+                    </div>
+                    <!-- End Favorite-Area -->
+
+                    <!-- Start Add To Card Area -->
+                    <div class="header-bag position-relative">
+                        <a href="shipping-cart.html" class="d-block"><img src="img/icons/bag.png" alt="shopping-bag" class="d-block"></a>
+                        <span class="love-badge position-absolute badge top-50 start-100 translate-middle rounded-pill">3</span>
+                        <!-- Start Add To card Product Lists -->
+                        <!-- Tooltip -->
+                        <div class="addcard-products p-3">
+                            <div class="row">
+                                <div class="col-sm-12 addcard-product-item py-2">
+                                    <div class="row">
+                                        <div class="col-sm-3 addcard-img">
+                                            <img src="img/products/electronic/12.jpg" alt="" class="d-block w-100">
+                                        </div>
+                                        <div class="col-sm-7 addcard-text">
+                                            <a href="#" class="d-block">Samsung ultra 55" LED Monitor</a>
+                                        </div>
+                                        <div class="col-sm-2 addcard-btn">
+                                            <button class="btn btn-close" data-bs-toggle=""></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 addcard-product-item py-2">
+                                    <div class="row">
+                                        <div class="col-sm-3 addcard-img">
+                                            <img src="img/products/electronic/11.jpg" alt="" class="d-block w-100">
+                                        </div>
+                                        <div class="col-sm-7 addcard-text">
+                                            <a href="#" class="d-block">Asus Foldable 19" Laptop</a>
+                                        </div>
+                                        <div class="col-sm-2 addcard-btn">
+                                            <button class="btn btn-close" data-bs-toggle=""></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 addcard-product-item py-2">
+                                    <div class="row">
+                                        <div class="col-sm-3 addcard-img">
+                                            <img src="img/products/electronic/6.jpg" alt="" class="d-block w-100">
+                                        </div>
+                                        <div class="col-sm-7 addcard-text">
+                                            <a href="#" class="d-block">Epson Premium ultra 3120 Printer</a>
+                                        </div>
+                                        <div class="col-sm-2 addcard-btn">
+                                            <button class="btn btn-close" data-bs-toggle=""></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 py-2">
+                                    <div class="row">
+                                        <div class="col-sm-6 col-xsm-6">
+                                            <h5>Sub Total:</h5>
+                                        </div>
+                                        <div class="col-sm-6 col-xsm-6">
+                                            <h5 class="float-end text-danger fw-bold">999/-</h5>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-6 col-xsm-6">
+                                            <a href="shipping-cart.html" class="btn btn-success text-white">View Cart</a>
+                                        </div>
+                                        <div class="col-sm-6 col-xsm-6">
+                                            <a href="checkout.html" class="btn btn-success text-white">Checkout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Add To care Product Lists -->
+                    </div>
+                    <!-- End Add To Card Area -->
+
+                    <div class="header-user">
+                        <img src="img/icons/user.png" alt="user" class="d-block">
+                    </div>
+                    <div class="header-user-info">
+                        <a class="d-block text-white" href="account.html">Login</a>
+                        <a class="d-block text-white" href="account.html">Register</a>
+                    </div>
+
+                    
+
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!-- End header markup design -->
+
+    <section class="sub-menu">
+        <div class="container">
+            <!-- Sub Menu -->
+            <div class="col-12 sub-menu mobile-sub-menu">
+                <ul class="py-3">
+                    <li><a href="product.html" class="d-block"><i class="fa-solid fa-laptop"></i> Laptop & All Parts</a></li>
+                    <li><a href="product.html" class="d-block"><i class="fa-solid fa-computer"></i> Computer & All Parts</a></li>
+                    <li><a href="product.html" class="d-block"><i class="fa-solid fa-display"></i> LED & LCD Monitors</a></li>
+                    <li><a href="product.html" class="d-block"><i class="fa-solid fa-print"></i> Printers</a></li>
+                    <li><a href="product.html" class="d-block"><i class="fa-solid fa-clipboard"></i> Scanner</a></li>
+                    <li><a href="product.html" class="d-block"><i class="fa-solid fa-camera"></i> CC Camera</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- Start Home markup design -->
+    <section class="home-page py-3" id="home-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 home-slider">
+                    <!-- Start Carousel Markup--->
+                        <div class="carousel slide carousel-fade" id="Home_slider" data-bs-ride="carousel">
+                            <!-- Img Content -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="img/slider/1.jpg" alt="slider-1" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/slider/2.jpg" alt="slider-2" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/slider/3.jpg" alt="slider-3" class="d-block w-100">
+                                </div>
+                            </div>
+                            <!-- Slider Button -->
+                            <button class="carousel-control-prev" type="button" data-bs-target="#Home_slider" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-slide="next" data-bs-target="#Home_slider">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                            <!-- Slider Control -->
+                            <div class="carousel-indicators">
+                                <button class="active" data-bs-slide-to="0" data-bs-target="#Home_slider"></button>
+                                <button data-bs-target="#Home_slider" data-bs-slide-to="1"></button>
+                                <button data-bs-target="#Home_slider" data-bs-slide-to="2"></button>
+                            </div>
+                        </div>
+	                <!-- End Carousel Markup --->
+                </div>
+                <div class="col-md-4 home-baner">
+                    <div class="row gy-3 d-flex flex-column align-items-end">
+                        <div class="col-12">
+                            <a href="#" class="d-block"><img src="img/slider/promotion-1.jpg" alt="promotion-1" class="w-100 d-block"></a>
+                        </div>
+                        <div class="col-12">
+                            <a href="#" class="d-block"><img src="img/slider/promotion-2.jpg" alt="promotion-2" class="w-100 d-block"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Home markup design -->
+
+    <!-- Contact Support -->
+    <section class="contact-support py-3" id="contact-support">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="support-item support-item-1 clearfix">
+                        <div class="support-icon float-start w-25">
+                            <span><i class="fa-solid fa-rocket"></i></span>
+                        </div>
+                        <div class="support-content float-end w-75">
+                            <h5>Free Delivery</h5>
+                            <p>For all oders over $99 or 9,999 Tk</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="support-item support-item-2 clearfix">
+                        <div class="support-icon float-start w-25">
+                            <span><i class="fa-solid fa-rotate"></i></span>
+                        </div>
+                        <div class="support-content float-end w-75">
+                            <h5>90 Days Return</h5>
+                            <p>If goods have problems</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="support-item support-item-3 clearfix">
+                        <div class="support-icon float-start w-25">
+                            <span><i class="fa-solid fa-credit-card"></i></span>
+                        </div>
+                        <div class="support-content float-end w-75">
+                            <h5>Secure Payment</h5>
+                            <p>100% secure payment</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="support-item support-item-4 clearfix">
+                        <div class="support-icon float-start w-25">
+                            <span><i class="fa-solid fa-comment"></i></span>
+                        </div>
+                        <div class="support-content float-end w-75">
+                            <h5>24/7 Support</h5>
+                            <p>Dedicated support</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Start Category Area -->
+        <section class="category py-3">
+            <div class="container">
+                <div class="row g-1 d-flex justify-content-between">
+                    <h3 class="text-center mb-2">Lists of Categories</h3>
+                    <div class="col-lg-3 col-md-6 border">
+                        <div class="category-item p-1">
+                            <div class="row">
+                                <div class="col-sm-5">
+                                    <img src="img/products/electronic/5.jpg" alt="" class="d-block w-100">
+                                </div>
+                                <div class="col-sm-7">
+                                    <h5>LED Monitor</h5>
+                                    <a href="#" class="d-block">Smart Tv</a>
+                                    <a href="#" class="d-block">Android Tv</a>
+                                    <a href="#" class="d-block">Ultra Tv</a>
+                                    <a href="#" class="d-block">4K Ultra Tv</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 border">
+                        <div class="category-item p-1">
+                            <div class="row">
+                                <div class="col-sm-5">
+                                    <img src="img/products/electronic/11.jpg" alt="" class="d-block w-100">
+                                </div>
+                                <div class="col-sm-7">
+                                    <h5>Laptop</h5>
+                                    <a href="#" class="d-block">Toshiba</a>
+                                    <a href="#" class="d-block">Samsung</a>
+                                    <a href="#" class="d-block">Asus</a>
+                                    <a href="#" class="d-block">Lenovo</a>
+                                    <a href="#" class="d-block">Hp</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 border">
+                        <div class="category-item p-1">
+                            <div class="row">
+                                <div class="col-sm-5">
+                                    <img src="img/products/electronic/6.jpg" alt="" class="d-block w-100">
+                                </div>
+                                <div class="col-sm-7">
+                                    <h5>Printer</h5>
+                                    <a href="#" class="d-block">Epson</a>
+                                    <a href="#" class="d-block">Toshiba</a>
+                                    <a href="#" class="d-block">Cannon</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 border">
+                        <div class="category-item p-1">
+                            <div class="row">
+                                <div class="col-sm-5">
+                                    <img src="img/products/electronic/9.jpg" alt="" class="d-block w-100">
+                                </div>
+                                <div class="col-sm-7">
+                                    <h5>Camera</h5>
+                                    <a href="#" class="d-block">Cannon</a>
+                                    <a href="#" class="d-block">Epson</a>
+                                    <a href="#" class="d-block">Sony</a>
+                                    <a href="#" class="d-block">Samsung</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Category Area -->
+
+    <!-- Start Banner Area -->
+    <section class="banner-area pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <a href="#"><img src="img/promotions/home-4-1.jpg" class="w-100 d-block" alt="home-banner"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Banner Area -->
+
+    <!-- Start Product Content -->
+    <section class="product-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="nav-content" id="Product_Tab">
+                        <ul class="nav nav-pills nav-fill">
+                            <li class="nav-item"><a class="nav-link active" href="#">All Product</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Laptop</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Computer</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Monitor</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Printer</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Camera</a></li>
+                        </ul>
+                    
+                        <!-- Start Product Item List -->
+                        <div class="row mt-2 product-content">
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="product-item my-1">
+                                    <div class="img-content">
+                                        <a href="product-details.html" class="d-block">
+                                            <img src="img/products/electronic/5.jpg" alt="">
+                                        </a>
+                                        <span>-15%</span>
+                                        <ul class="">
+                                            <li><a href="shipping-cart.html" title="Add to Cart"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                                            <li><a href="product-details.html" title="Quick View"><i class="fa-solid fa-eye"></i></a></li>
+                                            <li><a href="shipping-cart.html" title="Add to Favorite"><i class="fa-regular fa-heart"></i></a></li>
+                                            <li><a href="#" title="Add to Compare"><i class="fa-solid fa-chart-simple"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="text-content p-2">
+                                        <span class="text-muted small">Monitor</span>
+                                        <a href="product-details.html" class="d-block">
+                                            <h3 class="h5">Samsung ultra 55" LED Monitor</h3>
+                                        </a>
+                                        <div class="product-price d-flex">
+                                            <span class="me-2 fw-bold" style="color: #900C3F">89,999/-</span>
+                                            <span class="text-decoration-line-through fw-bold text-muted">99,999/-</span>
+                                        </div>
+                                        <div class="progress my-1">
+                                            <div class="progress-bar" style="width: 17%"></div>
+                                        </div>
+                                        <span class="text-muted small">Sold:17</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="product-item my-1">
+                                    <div class="img-content">
+                                        <a href="product-details.html" class="d-block">
+                                            <img src="img/products/electronic/11.jpg" alt="">
+                                        </a>
+                                        <span>-20%</span>
+                                        <ul class="">
+                                            <li><a href="shipping-cart.html" title="Add to Cart"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                                            <li><a href="product-details.html" title="Quick View"><i class="fa-solid fa-eye"></i></a></li>
+                                            <li><a href="shipping-cart.html" title="Add to Favorite"><i class="fa-regular fa-heart"></i></a></li>
+                                            <li><a href="#" title="Add to Compare"><i class="fa-solid fa-chart-simple"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="text-content p-2">
+                                        <span class="text-muted small">Laptop</span>
+                                        <a href="product-details.html" class="d-block">
+                                            <h3 class="h5">Asus Foldable 19" Laptop</h3>
+                                        </a>
+                                        <div class="product-price d-flex">
+                                            <span class="me-2 fw-bold" style="color: #900C3F">1,76,550/-</span>
+                                            <span class="text-decoration-line-through fw-bold text-muted">2,00,000/-</span>
+                                        </div>
+                                        <div class="progress my-1">
+                                            <div class="progress-bar" style="width: 85%"></div>
+                                        </div>
+                                        <span class="text-muted small">Sold:85</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="product-item my-1">
+                                    <div class="img-content">
+                                        <a href="product-details.html" class="d-block">
+                                            <img src="img/products/electronic/6.jpg" alt="">
+                                        </a>
+                                        <span class="bg-dark">Out Of Stock</span>
+                                        <ul class="">
+                                            <li><a href="shipping-cart.html" title="Add to Cart"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                                            <li><a href="product-details.html" title="Quick View"><i class="fa-solid fa-eye"></i></a></li>
+                                            <li><a href="shipping-cart.html" title="Add to Favorite"><i class="fa-regular fa-heart"></i></a></li>
+                                            <li><a href="#" title="Add to Compare"><i class="fa-solid fa-chart-simple"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="text-content p-2">
+                                        <span class="text-muted small">Printer</span>
+                                        <a href="product-details.html" class="d-block">
+                                            <h3 class="h5">Epson Premium ultra 3120 Printer</h3>
+                                        </a>
+                                        <div class="product-price d-flex">
+                                            <span class="me-2 fw-bold" style="color: #900C3F">29,000/-</span>
+                                            <span class="text-decoration-line-through fw-bold text-muted">34,500/-</span>
+                                        </div>
+                                        <div class="progress my-1">
+                                            <div class="progress-bar" style="width: 100%"></div>
+                                        </div>
+                                        <span class="text-muted small">Sold:100+</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="product-item my-1">
+                                    <div class="img-content">
+                                        <a href="product-details.html" class="d-block">
+                                            <img src="img/products/electronic/19.jpg" alt="">
+                                        </a>
+                                        <span>-50%</span>
+                                        <ul class="">
+                                            <li><a href="shipping-cart.html" title="Add to Cart"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                                            <li><a href="product-details.html" title="Quick View"><i class="fa-solid fa-eye"></i></a></li>
+                                            <li><a href="shipping-cart.html" title="Add to Favorite"><i class="fa-regular fa-heart"></i></a></li>
+                                            <li><a href="#" title="Add to Compare"><i class="fa-solid fa-chart-simple"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="text-content p-2">
+                                        <span class="text-muted small">Camera</span>
+                                        <a href="product-details.html" class="d-block">
+                                            <h3 class="h5">Cannon supper zoom edition 50D</h3>
+                                        </a>
+                                        <div class="product-price d-flex">
+                                            <span class="me-2 fw-bold" style="color: #900C3F">60,000/-</span>
+                                            <span class="text-decoration-line-through fw-bold text-muted">30,000/-</span>
+                                        </div>
+                                        <div class="progress my-1">
+                                            <div class="progress-bar" style="width: 50%"></div>
+                                        </div>
+                                        <span class="text-muted small">Sold:50</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Product Item List -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Product Content -->
+
+        <!-- Start Google Adsense Ads Area -->
+        <section class="adsense-ads">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="ads-area bg-dark text-white d-flex flex-column align-items-center justify-content-center">
+                            <h3>1240*180</h3>
+                            <p>Google Adsense Ads</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Google Adsense Ads Area -->
+
+    <!-- Start Middle Content -->
+    <section class="middle-content py-3" id="middle-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9">
+                    <div class="product-event border border-2 p-2">
+                        <div class="product-event-header border-bottom">
+                            <h3 class="pb-2">Deal Hot Today</h3>
+                        </div>
+                        <div class="row g-0">
+                            <div class="col-md-6 event-body-left">
+                                <div class="row g-0">
+                                    <div class="col-sm-2 py-2">
+                                        <div class="event-short-img d-flex flex-sm-column justify-content-center align-items-center">
+                                            <div class="short-img">
+                                                <a href="#" class="d-block"><img src="img/products/electronic/5.jpg"class="w-100 d-block" alt="short-img-1"></a>
+                                            </div>
+                                            <div class="short-img">
+                                                <a href="#" class="d-block"><img src="img/products/electronic/12.jpg"class="w-100 d-block" alt="short-img-2"></a>
+                                            </div>
+                                            <div class="short-img">
+                                                <a href="#" class="d-block"><img src="img/products/electronic/14.jpg"class="w-100 d-block" alt="short-img-3"></a>
+                                            </div>
+                                            <div class="short-img">
+                                                <a href="#" class="d-block"><img src="img/products/electronic/13.jpg"class="w-100 d-block" alt="short-img-4"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-10 big-img position-relative">
+                                        <img src="img/products/electronic/12.jpg" alt="event-big-img" class="d-block w-100">
+                                        <div class="big-img-absolute position-absolute text-center">
+                                            <p class="fw-bold">SAVE</p>
+                                            <p class="fw-bold">50%</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 py-3 event-body-right">
+                                <span">LED Monitor</span>
+                                <h3 class="mt-2">Samsung Ultra 55" Led Monitor </h3>
+                                <span class="h4 price mt-2">89,990/-</span>
+                                <span class="h5 text-decoration-line-through ">99,990/-</span>
+                                <p class="my-2">Status: <span class="stock">In Stock</span></p>
+                                <p class="border-top">Expires In</p>
+                                <div class="event-timeing mt-2 d-flex flex-wrap text-center">
+                                    <div class="event-days me-1">
+                                        <div class="even-days-text border border-3 p-1">
+                                            <h3 class="gc">-27</h3>
+                                        </div>
+                                        <div class="even-days-content">
+                                            <p>Days</p>
+                                        </div>
+                                    </div>
+                                    <div class="event-collon me-1">
+                                        <h3>:</h3>
+                                    </div>
+                                    <div class="event-hours me-1">
+                                        <div class="event-hours-text border border-3 p-1">
+                                            <h3 class="gc">-23</h3>
+                                        </div>
+                                        <div class="even-hours-content">
+                                            <p>Hours</p>
+                                        </div>
+                                    </div>
+                                    <div class="event-collon me-1">
+                                        <h3>:</h3>
+                                    </div>
+                                    <div class="event-minutes me-1">
+                                        <div class="event-minutes-text border border-3 p-1">
+                                            <h3 class="gc">-05</h3>
+                                        </div>
+                                        <div class="even-minutes-content">
+                                            <p>minutes</p>
+                                        </div>
+                                    </div>
+                                    <div class="event-collon me-1">
+                                        <h3>:</h3>
+                                    </div>
+                                    <div class="event-seconds">
+                                        <div class="event-seconds-text border border-3 p-1">
+                                            <h3 class="gc">-17</h3>
+                                        </div>
+                                        <div class="even-seconds-content">
+                                            <p>Seconds</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="progress my-2">
+                                    <div class="progress-bar" style="width: 50%;"></div>
+                                </div>
+                                <p class="rc fw-bold">10/20 <span class="fw-bold text-muted">Sold</span></p>
+                                <a href="#" class="btn btn-success">Shop Now</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 slider-content">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h5 class="text-center bg-dark text-white py-2">Top 5 Best Products</h5>
+                        </div>
+                        <div class="col-sm-12">
+                            <a href="product-details.html" class="d-block">
+                                <div class="slider-item">
+                                    <div class="slider-item-image">
+                                        <img src="img/products/electronic/5.jpg" alt="" class="w-100">
+                                    </div>
+                                    <div class="slider-item-content">
+                                        <p class="">Samsung ultra 55" LED Monitor</p>
+                                        <span style="color: #900C3F;" class="small d-inline-block">89,999/-</span>
+                                        <span style="color: black;" class="small d-inline-block text-decoration-line-through">99,999/-</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-12">
+                            <a href="product-details.html" class="d-block">
+                                <div class="slider-item">
+                                    <div class="slider-item-image">
+                                        <img src="img/products/electronic/11.jpg" alt="" class="w-100">
+                                    </div>
+                                    <div class="slider-item-content">
+                                        <p class="">Asus Foldable 19" Laptop</p>
+                                        <span style="color: #900C3F;" class="small d-inline-block">1,76,550/-           </span>
+                                        <span style="color: black;" class="small d-inline-block text-decoration-line-through">2,00,000/-</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-12">
+                            <a href="product-details.html" class="d-block">
+                                <div class="slider-item">
+                                    <div class="slider-item-image">
+                                        <img src="img/products/electronic/6.jpg" alt="" class="w-100">
+                                    </div>
+                                    <div class="slider-item-content">
+                                        <p class="">Asus Foldable 19" Laptop</p>
+                                        <span style="color: #900C3F;" class="small d-inline-block">29,000/-</span>
+                                        <span style="color: black;" class="small d-inline-block text-decoration-line-through">34,500/-</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-12">
+                            <a href="product-details.html" class="d-block">
+                                <div class="slider-item">
+                                    <div class="slider-item-image">
+                                        <img src="img/products/electronic/19.jpg" alt="" class="w-100">
+                                    </div>
+                                    <div class="slider-item-content">
+                                        <p class="">Asus Foldable 19" Laptop</p>
+                                        <span style="color: #900C3F;" class="small d-inline-block">30,000/-</span>
+                                        <span style="color: black;" class="small d-inline-block text-decoration-line-through">60,000/-</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Middle Content -->
+
+    <!-- Start Google Adsense Ads Area -->
+    <section class="adsense-ads">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="ads-area bg-success text-white d-flex flex-column align-items-center justify-content-center">
+                        <h3>1240*180</h3>
+                        <p>Google Adsense Ads</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Google Adsense Ads Area -->
+
+    <!-- Start Slider Product Content -->
+    <section class="slider-product py-3">
+        <div class="container">
+            <div class="row g-1">
+                <div class="col-md-2">
+                    <div class="slider-product-category">
+                        <h5>Consumer Electronics</h5>
+                        <ul class="mt-3">
+                            <li><a href="#">Best Seller</a></li>
+                            <li><a href="#">New Arrivals</a></li>
+                            <li><a href="#">Sales & Deals</a></li>
+                            <li><a href="#">TV Television</a></li>
+                            <li><a href="#">Best Seller</a></li>
+                            <li><a href="#">Office Electronic</a></li>
+                            <li><a href="#">Car Electronic</a></li>
+                            <li><a href="#">Latest Offer</a></li>
+                            <li><a href="#">Upcomming Events</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="carousel-slider carousel slide carousel-fade" id="Product_carousel" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/slider/electronic-2.jpg" alt="product-slider-1" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/slider/electronic-3.jpg" alt="product-slider-2" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/slider/technology-2.jpg" alt="product-slider-3" class="d-block w-100">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" data-bs-target="#Product_carousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" data-bs-target="#Product_carousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                        <div class="carousel-indicators">
+                            <button class="active" data-bs-slide-to="0" data-bs-target="#Product_carousel"></button>
+                            <button data-bs-slide-to="1" data-bs-target="#Product_carousel"></button>
+                            <button data-bs-slide-to="2" data-bs-target="#Product_carousel"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="slider-product">
+                        
+                        <!-- Start Product Item List -->
+                        <div class="row product-content">
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="product-item my-1">
+                                    <div class="img-content">
+                                        <img src="img/products/electronic/5.jpg" alt="">
+                                        <span>-15%</span>
+                                        <ul class="">
+                                            <li><a href="#" title="Add to Card"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                                            <li><a href="#" title="Quick View"><i class="fa-solid fa-eye"></i></a></li>
+                                            <li><a href="#" title="Add to Favorite"><i class="fa-regular fa-heart"></i></a></li>
+                                            <li><a href="#" title="Add to Compare"><i class="fa-solid fa-chart-simple"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="text-content p-2">
+                                        <span class="text-muted small">Monitor</span>
+                                        <h3 class="h5">Samsung ultra 55" LED Monitor</h3>
+                                        <div class="product-price d-flex">
+                                            <span class="me-2 fw-bold" style="color: #900C3F">89,999/-</span>
+                                            <span class="text-decoration-line-through fw-bold text-muted">99,999/-</span>
+                                        </div>
+                                        <div class="progress my-1">
+                                            <div class="progress-bar" style="width: 17%"></div>
+                                        </div>
+                                        <span class="text-muted small">Sold:17</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="product-item my-1">
+                                    <div class="img-content">
+                                        <img src="img/products/electronic/11.jpg" alt="">
+                                        <span>-20%</span>
+                                        <ul class="">
+                                            <li><a href="#" title="Add to Card"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                                            <li><a href="#" title="Quick View"><i class="fa-solid fa-eye"></i></a></li>
+                                            <li><a href="#" title="Add to Favorite"><i class="fa-regular fa-heart"></i></a></li>
+                                            <li><a href="#" title="Add to Compare"><i class="fa-solid fa-chart-simple"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="text-content p-2">
+                                        <span class="text-muted small">Laptop</span>
+                                        <h3 class="h5">Asus Foldable 19" Laptop</h3>
+                                        <div class="product-price d-flex">
+                                            <span class="me-2 fw-bold" style="color: #900C3F">1,76,550/-</span>
+                                            <span class="text-decoration-line-through fw-bold text-muted">2,00,000/-</span>
+                                        </div>
+                                        <div class="progress my-1">
+                                            <div class="progress-bar" style="width: 85%"></div>
+                                        </div>
+                                        <span class="text-muted small">Sold:85</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="product-item my-1">
+                                    <div class="img-content">
+                                        <img src="img/products/electronic/6.jpg" alt="">
+                                        <span class="bg-dark">Out Of Stock</span>
+                                        <ul class="">
+                                            <li><a href="#" title="Add to Card"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                                            <li><a href="#" title="Quick View"><i class="fa-solid fa-eye"></i></a></li>
+                                            <li><a href="#" title="Add to Favorite"><i class="fa-regular fa-heart"></i></a></li>
+                                            <li><a href="#" title="Add to Compare"><i class="fa-solid fa-chart-simple"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="text-content p-2">
+                                        <span class="text-muted small">Printer</span>
+                                        <h3 class="h5">Epson Premium ultra 3120 Printer</h3>
+                                        <div class="product-price d-flex">
+                                            <span class="me-2 fw-bold" style="color: #900C3F">29,000/-</span>
+                                            <span class="text-decoration-line-through fw-bold text-muted">34,500/-</span>
+                                        </div>
+                                        <div class="progress my-1">
+                                            <div class="progress-bar" style="width: 100%"></div>
+                                        </div>
+                                        <span class="text-muted small">Sold:100+</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                        <!-- End Product Item List -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Slider Product Content -->
+
+        <!-- Start About Content -->
+        <section class="about py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h3 class="text-center h2">Our Team Members</h3>
+                        <div class="row g-1 mt-3">
+                            <div class="col-sm-6 col-lg-3 mb-1">
+                                <div class="about-profile">
+                                    <div class="about-picture">
+                                        <img src="img/users/our-team/1.jpg" alt="team-member-1" class="d-block w-100">
+                                    </div>
+                                    <div class="about-content">
+                                        <h3>Enginner Shahin</h3>
+                                        <p>CEO Founder</p>
+                                        <ul>
+                                            <li><a href="#" class="d-block"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                            <li><a href="#" class="d-block"><i class="fa-brands fa-twitter"></i></a></li>
+                                            <li><a href="#" class="d-block"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                            <li><a href="#" class="d-block"><i class="fa-solid fa-envelope"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-3 mb-1">
+                                <div class="about-profile">
+                                    <div class="about-picture">
+                                        <img src="img/users/our-team/2.jpg" alt="team-member-2" class="d-block w-100">
+                                    </div>
+                                    <div class="about-content">
+                                        <h3>Emon Miya</h3>
+                                        <p>Co Founder</p>
+                                        <ul>
+                                            <li><a href="#" class="d-block"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                            <li><a href="#" class="d-block"><i class="fa-brands fa-twitter"></i></a></li>
+                                            <li><a href="#" class="d-block"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                            <li><a href="#" class="d-block"><i class="fa-solid fa-envelope"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-3 mb-1">
+                                <div class="about-profile">
+                                    <div class="about-picture">
+                                        <img src="img/users/our-team/3.jpg" alt="team-member-3" class="d-block w-100">
+                                    </div>
+                                    <div class="about-content">
+                                        <h3>Freelancer Anik</h3>
+                                        <p>Frontend Developer</p>
+                                        <ul>
+                                            <li><a href="#" class="d-block"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                            <li><a href="#" class="d-block"><i class="fa-brands fa-twitter"></i></a></li>
+                                            <li><a href="#" class="d-block"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                            <li><a href="#" class="d-block"><i class="fa-solid fa-envelope"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-3 mb-1">
+                                <div class="about-profile">
+                                    <div class="about-picture">
+                                        <img src="img/users/our-team/4.jpg" alt="team-member-3" class="d-block w-100">
+                                    </div>
+                                    <div class="about-content">
+                                        <h3>Shemoly</h3>
+                                        <p>Backend Developer</p>
+                                        <ul>
+                                            <li><a href="#" class="d-block"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                            <li><a href="#" class="d-block"><i class="fa-brands fa-twitter"></i></a></li>
+                                            <li><a href="#" class="d-block"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                            <li><a href="#" class="d-block"><i class="fa-solid fa-envelope"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End About Content -->
+
+        <!-- Start Google Adsense Ads Area -->
+        <section class="adsense-ads">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="ads-area bg-dark text-white d-flex flex-column align-items-center justify-content-center">
+                            <h3>1240*180</h3>
+                            <p>Google Adsense Ads</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Google Adsense Ads Area -->
+
+    <!-- START BEST SELLER BRANDS -->
+    <section class="brand-list py-3">
+        <div class="container">
+            <div class="row g-2 d-flex justify-content-center align-items-center">
+                <div class="col-lg-1 col-md-2 col-sm-6 brand-item">
+                    <div class="border my-1">
+                        <a href="#"><img src="img/brand/2-1.jpg" alt="brand-1"></a>
+                    </div>
+                </div>
+                <div class="col-lg-1 col-md-2 col-sm-6 brand-item">
+                    <div class="border my-1">
+                        <a href="#"><img src="img/brand/2-2.jpg" alt="brand-2"></a>
+                    </div>
+                </div>
+                <div class="col-lg-1 col-md-2 col-sm-6 brand-item">
+                    <div class="border my-1">
+                        <a href="#"><img src="img/brand/2-3.jpg" alt="brand-3"></a>
+                    </div>
+                </div>
+                <div class="col-lg-1 col-md-2 col-sm-6 brand-item">
+                    <div class="border my-1">
+                        <a href="#"><img src="img/brand/2-4.jpg" alt="brand-4"></a>
+                    </div>
+                </div>
+                <div class="col-lg-1 col-md-2 col-sm-6 brand-item">
+                    <div class="border my-1">
+                        <a href="#"><img src="img/brand/2-5.jpg" alt="brand-5"></a>
+                    </div>
+                </div>
+                <div class="col-lg-1 col-md-2 col-sm-6 brand-item">
+                    <div class="border my-1">
+                        <a href="#"><img src="img/brand/2-6.jpg" alt="brand-6"></a>
+                    </div>
+                </div>
+                <div class="col-lg-1 col-md-2 col-sm-6 brand-item">
+                    <div class="border my-1">
+                        <a href="#"><img src="img/brand/2-7.jpg" alt="brand-7"></a>
+                    </div>
+                </div>
+                <div class="col-lg-1 col-md-2 col-sm-6 brand-item">
+                    <div class="border my-1">
+                        <a href="#"><img src="img/brand/2-8.jpg" alt="brand-8"></a>
+                    </div>
+                </div>
+                <div class="col-lg-1 col-md-2 col-sm-6 brand-item">
+                    <div class="border my-1">
+                        <a href="#"><img src="img/brand/2-9.jpg" alt="brand-9"></a>
+                    </div>
+                </div>
+                <div class="col-lg-1 col-md-2 col-sm-6 brand-item">
+                    <div class="border my-1">
+                        <a href="#"><img src="img/brand/2-10.jpg" alt="brand-10"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END BEST SELLER BRANDS -->
+
+    <!-- Start Recently viewed products -->
+    <section class="recent-view">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="recent-view-content clearfix">
+                        <h3 class="float-start">Recently Viewed Products</h3>
+                        <a href="#" class="d-block float-end">View All</a>
+                    </div>
+                    <div class="recent-content">
+                        <a href="#"><img src="img/products/electronic/11.jpg" alt="view-1"></a>
+                        <a href="#"><img src="img/products/electronic/5.jpg" alt="view-2"></a>
+                        <a href="#"><img src="img/products/electronic/9.jpg" alt="view-3"></a>
+                        <a href="#"><img src="img/products/electronic/17.jpg" alt="view-4"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Recently viewed products -->
+
+    <!-- Start Footer markup design -->
+    <section class="footer py-3" id="footer">
+        <div class="container">
+            <div class="row text-white d-flex justify-content-between">
+                <div class="col-lg-6 col-md-6 my-3 footer-about">
+                    <div class="footer-about-info">
+                        <h4 class="text-white">Contact us</h4>
+                        <h6><i class="fa-solid fa-phone"></i> Mobile <span class="gc">+8801760-451408</span></h6>
+                        <h6><i class="fa-solid fa-envelope"></i> Email <span class="gc">emon.me.trishal@gmail.com</span></h6>
+                        <h6><i class="fa-solid fa-location"></i> Address <span class="gc">U.N.O Office Road, Trishal Bazer, Trishal, Mymensingh</span></h6>
+                    </div>
+                    <div class="footer-social d-flex">
+                        <ul>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 my-3 footer-link-list">
+                    <h4 class="text-white">Quick links</h4>
+                    <ul>
+                        <li><a href="#">Privacy & Policy</a></li>
+                        <li><a href="#">Term & Condition</a></li>
+                        <li><a href="shipping.html">Shipping</a></li>
+                        <li><a href="#">Return</a></li>
+                        <li><a href="faq.html">FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 my-3 footer-link-list">
+                    <h4 class="text-white">Shop Link</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="affilate.html">Affilate</a></li>
+                        <li><a href="career.html">Career</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 my-3 footer-link-list">
+                    <h4 class="text-white">Bussiness</h4>
+                    <ul>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="checkout.html">Checkout</a></li>
+                        <li><a href="account.html">My account</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Footer Last Content -->
+                <div class="col-sm-12 footer-last text-white text-center">
+                    <p class="d-inline-block">© 2022 Digital Computer All Rights Reserved. </p>
+                    <p class="d-inline-block">Website Desigened By <a style="color: yellow;" href="https://www.facebook.com/shopnil.anike" target="_blank">Freelancer Anik</a></p>
+                </div>
+                <div class="col-sm-12 footer-money text-white text-center">
+                    <p class="d-inline-block">We Are Using Safe Payment For : </p>
+                    <img src="img/payment-method/1.jpg" alt="payment-1">
+                    <img src="img/payment-method/2.jpg" alt="payment-2">
+                    <img src="img/payment-method/3.jpg" alt="payment-3">
+                    <img src="img/payment-method/4.jpg" alt="payment-4">
+                    <img src="img/payment-method/5.jpg" alt="payment-5">
+                </div>
+
+        </div>
+    </section>
+    <!-- End Footer markup design -->
+    <div class="scroll">
+        <a class="d-block" href="javascript:void(0);"><i class="fa-solid fa-circle-up gc  p-1 fs-3"></i></a>
+    </div>
+    
+
+    <!-- JS All Files -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/fontawesome.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
